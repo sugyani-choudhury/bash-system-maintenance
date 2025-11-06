@@ -1,0 +1,32 @@
+System Monitoring Report
+========================
+Date & Time: Thu Nov  6 06:01:44 UTC 2025
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         476G  111G  365G  24% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            3.8G   92K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.8G  544K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   76K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   76K  3.8G   1% /mnt/wslg/doc
+C:\             476G  111G  365G  24% /mnt/c
+tmpfs           778M   20K  778M   1% /run/user/1000
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       512Mi       6.5Gi       3.6Mi       759Mi       7.1Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+CPU Load:
+top - 06:01:44 up 43 min,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  25 total,   1 running,  24 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7774.2 total,   6654.5 free,    515.2 used,    759.2 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7259.0 avail Mem 
